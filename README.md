@@ -1,6 +1,6 @@
 # Portfolio website for photography & videography
 
-Trello board: trello.com/b/cFgHsWpp
+Trello board [link](trello.com/b/cFgHsWpp)
 
 Technologies:
 - TypeScript
