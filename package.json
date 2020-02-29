@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "rimraf dist && webpack --config webpack.production.js",
+    "build": "rimraf dist && webpack --config webpack.prod.js",
     "clean": "rimraf node_modules",
-    "deploy": "firebase deploy",
+    "deploy": "yarn build && firebase deploy",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "test": "jest"

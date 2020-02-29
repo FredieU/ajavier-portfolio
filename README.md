@@ -21,4 +21,4 @@ Run `yarn build` to remove the current `dist` directory and its contents (if pre
 
 ## Deploy
 
-Once the files are built, deployment is done through Firebase. Run `yarn deploy` to use Firebase to deploy the contents of `dist`.
+Run `yarn deploy` to rebuild the project and uses Firebase to deploy the contents of `dist` to the hosting project.
