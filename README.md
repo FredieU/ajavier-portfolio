@@ -8,7 +8,7 @@
 
 ## Build
 
-The project uses Webpack to generate the following files in a `dist` directory:
+Webpack is used to generate the following files in a `dist` directory:
 
 ```
 dist
@@ -17,6 +17,8 @@ dist
   |- manifest.json
 ```
 
-Run `yarn build` to remove the current `dist` directory and its contents (if present) and build these files again from `src`.
+Run `yarn build` to remove the current `dist` directory and its contents (if present) and build these again from `src`.
 
 ## Deploy
+
+Once the files are built, deployment is done through Firebase. Run `yarn deploy` to use Firebase to deploy the contents of `dist`.

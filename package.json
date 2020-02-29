@@ -5,6 +5,7 @@
   "scripts": {
     "build": "rimraf dist && webpack --config webpack.dev.js",
     "clean": "rimraf node_modules",
+    "deploy": "firebase deploy",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "test": "jest"
