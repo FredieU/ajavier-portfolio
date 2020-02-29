@@ -3,7 +3,7 @@
 
 # Production
 /dist
-.firebase
+/.firebase
 
 # misc
 .DS_Store
