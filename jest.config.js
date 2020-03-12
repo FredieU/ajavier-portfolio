@@ -4,8 +4,8 @@ module.exports = {
   testEnvironment: 'node',
   testPathIgnorePatterns: ['/node_modules/'],
   transform: {
-    '\\.ts(x*)$': 'ts-jest',
+    '\\.tsx?$': 'ts-jest',
     '^.+\\.jsx?$': 'babel-jest',
-    '\\.(s*)css$': '<rootDir>/src/__mocks__/styleMock.js',
+    '\\.s?css$': '<rootDir>/src/__mocks__/styleMock.js',
   },
 };

@@ -1,14 +1,14 @@
 import React from 'react';
-import './App.css';
+import './index.css';
 
-const App: React.FC = () => {
+export const HEADER_CLASS = 'App-header';
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className={HEADER_CLASS}>
         <p>Under construction...coming soon!</p>
       </header>
     </div>
   );
-};
-
-export default App;
+}
