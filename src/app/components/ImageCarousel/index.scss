@@ -1,0 +1,31 @@
+.img-carousel {
+  display: flex;
+  margin: 1rem 0;
+  position: relative;
+
+  img {
+    width: 90%;
+    transition: 5s;
+  }
+
+  button {
+    color: white;
+    font: 2rem bold;
+    background-color: black;
+    border: none;
+    opacity: 45%;
+    position: absolute;
+    width: 8vw;
+    height: 100%;
+
+    &.previous {
+      left: 0;
+      box-shadow: 12px 0px 14px 0px rgba(0, 0, 0, 1);
+    }
+
+    &.next {
+      right: 0;
+      box-shadow: -12px 0px 14px 0px rgba(0, 0, 0, 1);
+    }
+  }
+}
